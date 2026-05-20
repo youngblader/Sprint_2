@@ -1,9 +1,5 @@
 package model;
 
-interface Discountable {
-    double getDiscount();
-}
-
 public abstract class Food implements Discountable {
     protected int amount;
     protected double price;
